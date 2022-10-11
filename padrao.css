@@ -1,0 +1,16 @@
+nav {
+   
+    color: orange;
+    text-decoration-line: underline;
+}
+
+
+li {
+    font-size: 12px;
+    transition: 0.5s;
+  }
+  
+  li:hover {
+    font-size: 60px;
+  }
+  
