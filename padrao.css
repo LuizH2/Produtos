@@ -1,16 +1,91 @@
 nav {
-   
-    color: orange;
-    text-decoration-line: underline;
+  background-color: rgb(209, 204, 204);
+  font-size: 100px;
+  height: 14vh;
+  position: relative;
+}
+
+nav img {
+  width: 13vh;
+  position: absolute;
+  left: 300px;
+}
+
+li {
+  display: inline-block;
+  font-size: 25px;
+  transition: 0.5s;
+  position: relative;
+  left: 900px;
 }
 
 
-li {
-    font-size: 12px;
-    transition: 0.5s;
-  }
+li:hover {
+  font-size: 60px;
+  color: orange;
+  text-decoration-line: underline;
+}
+
+main {
+  background-color: rgb(255, 255, 255);
+  height: 71vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 20px;
+  align-items: center;
+}
+
+
+
+.img1 img {
   
-  li:hover {
-    font-size: 60px;
-  }
+  width: 150px;
+}
+
+.img2 img {
+ 
+  width: 150px;
+}
+
+.img3 img {
   
+  width: 150px;
+}
+
+.img4 img {
+  
+  width: 150px;
+}
+
+.img5 img {
+  
+  width: 150px;
+}
+
+.img6 img {
+  
+  width: 150px;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  height: 15vh;
+  position: relative;
+  width: 205vh;
+  font-size: 1.5vh;
+}
+
+footer img {
+  height: 11vh;
+  position: relative;
+  left: 97vh;
+  top: 7px;
+}
+
+footer p {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 1vh;
+  left: 90.5vh;
+}
