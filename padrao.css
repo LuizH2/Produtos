@@ -8,7 +8,8 @@ nav {
 nav img {
   width: 13vh;
   position: absolute;
-  left: 300px;
+  left: 5vh;
+  text-align: center;
 }
 
 ul li {
@@ -40,25 +41,23 @@ main {
 }
 
 
-.comodo {
+div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: fit-content;
   padding: 20px;
   border: 2px solid rgb(122, 122, 122);
   border-radius: 10px;
   background-color: white;
   transition: 0.5s;
 }
- 
-.comodo:hover {
-  font-size: 20px;
-  height: 30vh;
-  width: 20vw;
-  margin: 1vh;
+
+.bloco1 {
+  text-decoration: none;
 }
+
+
 main img:hover {
   height: 30vh;
   width: 20vw;
@@ -75,14 +74,13 @@ footer {
   background-color: rgb(0, 0, 0);
   height: 15vh;
   position: relative;
-  width: 205vh;
   font-size: 1.5vh;
 }
 
 footer img {
   height: 11vh;
   position: relative;
-  left: 97vh;
+  left: 105vh;
   top: 7px;
 }
 
@@ -90,5 +88,5 @@ footer p {
   color: rgb(255, 255, 255);
   position: absolute;
   bottom: 1vh;
-  left: 90.5vh;
+  left: 98.5vh;
 }
